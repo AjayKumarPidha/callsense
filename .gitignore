@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Django / FastAPI
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Models & cache
+*.onnx
+whisper/
+whisper_cache/
+.cache/
+transformers_cache/
+huggingface/
+~$*
+*.ckpt
+*.bin
+*.pth
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.seed
+*.tar
+docker-compose.override.yml
+
+# VSCode / PyCharm / IDEs
+.vscode/
+.idea/
+
+# Coverage & test reports
+htmlcov/
+.coverage
+.pytest_cache/
+junit/
